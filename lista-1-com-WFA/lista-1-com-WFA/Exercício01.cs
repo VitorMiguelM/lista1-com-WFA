@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace lista_1_com_WFA
 {
-    public partial class Form1 : Form
+    public partial class Exercício01 : Form
     {
-        public Form1()
+        public Exercício01()
         {
             InitializeComponent();
         }
