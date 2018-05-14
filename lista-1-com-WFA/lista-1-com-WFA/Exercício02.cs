@@ -24,11 +24,18 @@ namespace lista_1_com_WFA
 
         private void btnTestar_Click(object sender, EventArgs e)
         {
+
+            //NÃO FUNCIONA A VALIDAÇÃO DO VALOR PAGO.
             int quantidadeAnos = Convert.ToInt32(nupQuantidadeAnosConsumidos.Value);
             int quantidadeLitros = Convert.ToInt32(nupQuantidadeLitros.Value);
             double valorPorLitro = 0;
 
-           
+            if (mtbValorPorLitro.MaskFull)
+            {
+                MessageBox.Show("O campo \"Valor por litro\" não pode ficar vazio.");
+                mtbValorPorLitro.Focus();
+                return;
+            }
 
             try
             {
