@@ -34,8 +34,6 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnTestar = new System.Windows.Forms.Button();
             this.nupNumero = new System.Windows.Forms.NumericUpDown();
-            this.rdSucessor = new System.Windows.Forms.RadioButton();
-            this.rdAntecessor = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.nupNumero)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +64,7 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(101, 108);
+            this.txtResultado.Location = new System.Drawing.Point(101, 113);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(100, 49);
@@ -78,7 +76,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(12, 128);
+            this.lblResultado.Location = new System.Drawing.Point(12, 129);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(83, 16);
             this.lblResultado.TabIndex = 6;
@@ -89,7 +87,7 @@
             // btnTestar
             // 
             this.btnTestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTestar.Location = new System.Drawing.Point(225, 103);
+            this.btnTestar.Location = new System.Drawing.Point(251, 91);
             this.btnTestar.Name = "btnTestar";
             this.btnTestar.Size = new System.Drawing.Size(113, 29);
             this.btnTestar.TabIndex = 7;
@@ -103,30 +101,7 @@
             this.nupNumero.Name = "nupNumero";
             this.nupNumero.Size = new System.Drawing.Size(120, 20);
             this.nupNumero.TabIndex = 8;
-            // 
-            // rdSucessor
-            // 
-            this.rdSucessor.AutoSize = true;
-            this.rdSucessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdSucessor.Location = new System.Drawing.Point(225, 63);
-            this.rdSucessor.Name = "rdSucessor";
-            this.rdSucessor.Size = new System.Drawing.Size(91, 20);
-            this.rdSucessor.TabIndex = 9;
-            this.rdSucessor.TabStop = true;
-            this.rdSucessor.Text = "Sucessor";
-            this.rdSucessor.UseVisualStyleBackColor = true;
-            // 
-            // rdAntecessor
-            // 
-            this.rdAntecessor.AutoSize = true;
-            this.rdAntecessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdAntecessor.Location = new System.Drawing.Point(333, 63);
-            this.rdAntecessor.Name = "rdAntecessor";
-            this.rdAntecessor.Size = new System.Drawing.Size(104, 20);
-            this.rdAntecessor.TabIndex = 10;
-            this.rdAntecessor.TabStop = true;
-            this.rdAntecessor.Text = "Antecessor";
-            this.rdAntecessor.UseVisualStyleBackColor = true;
+            this.nupNumero.ValueChanged += new System.EventHandler(this.nupNumero_ValueChanged);
             // 
             // Exercício01
             // 
@@ -134,8 +109,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(458, 196);
-            this.Controls.Add(this.rdAntecessor);
-            this.Controls.Add(this.rdSucessor);
             this.Controls.Add(this.nupNumero);
             this.Controls.Add(this.btnTestar);
             this.Controls.Add(this.lblResultado);
@@ -158,7 +131,5 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnTestar;
         private System.Windows.Forms.NumericUpDown nupNumero;
-        private System.Windows.Forms.RadioButton rdSucessor;
-        private System.Windows.Forms.RadioButton rdAntecessor;
     }
 }

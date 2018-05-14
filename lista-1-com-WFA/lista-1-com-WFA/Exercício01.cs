@@ -16,7 +16,7 @@ namespace lista_1_com_WFA
         {
             InitializeComponent();
         }
-        double numero = 0;
+        
         double antecessor = 0;
         double sucessor = 0;
 
@@ -47,12 +47,38 @@ namespace lista_1_com_WFA
 
         public void ArmazenarInformações()
         {
-
+            
         }
 
         private void btnTestar_Click(object sender, EventArgs e)
         {
+            double numero = Convert.ToDouble(nupNumero.Value);
+
+            sucessor = numero + 1;
+            antecessor = numero - 1;
+
+            string resultado = String.Format("Sucessor: {0}  Antecessor {1}", sucessor, antecessor);
+
+            txtResultado.Text = resultado; 
+
+             
+          
+
+        }
+
+        private void rdSucessor_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdAntecessor_CheckedChanged(object sender, EventArgs e)
+        {
             
+        }
+
+        private void nupNumero_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
