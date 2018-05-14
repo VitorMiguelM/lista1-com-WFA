@@ -16,7 +16,7 @@ namespace lista_1_com_WFA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Exercício01());
+            Application.Run(new Principal());
         }
     }
 }
