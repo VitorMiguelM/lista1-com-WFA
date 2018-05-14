@@ -30,11 +30,13 @@
         {
             this.lblEnunciado = new System.Windows.Forms.Label();
             this.lblNumero = new System.Windows.Forms.Label();
-            this.txtNumero = new System.Windows.Forms.TextBox();
-            this.cbSucessor = new System.Windows.Forms.CheckBox();
-            this.cbAntecessor = new System.Windows.Forms.CheckBox();
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.btnTestar = new System.Windows.Forms.Button();
+            this.nupNumero = new System.Windows.Forms.NumericUpDown();
+            this.rdSucessor = new System.Windows.Forms.RadioButton();
+            this.rdAntecessor = new System.Windows.Forms.RadioButton();
+            ((System.ComponentModel.ISupportInitialize)(this.nupNumero)).BeginInit();
             this.SuspendLayout();
             // 
             // lblEnunciado
@@ -62,35 +64,6 @@
             this.lblNumero.Text = "Número:";
             this.lblNumero.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // txtNumero
-            // 
-            this.txtNumero.Location = new System.Drawing.Point(101, 65);
-            this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(100, 20);
-            this.txtNumero.TabIndex = 2;
-            // 
-            // cbSucessor
-            // 
-            this.cbSucessor.AutoSize = true;
-            this.cbSucessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbSucessor.Location = new System.Drawing.Point(225, 65);
-            this.cbSucessor.Name = "cbSucessor";
-            this.cbSucessor.Size = new System.Drawing.Size(92, 20);
-            this.cbSucessor.TabIndex = 3;
-            this.cbSucessor.Text = "Sucessor";
-            this.cbSucessor.UseVisualStyleBackColor = true;
-            // 
-            // cbAntecessor
-            // 
-            this.cbAntecessor.AutoSize = true;
-            this.cbAntecessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbAntecessor.Location = new System.Drawing.Point(333, 67);
-            this.cbAntecessor.Name = "cbAntecessor";
-            this.cbAntecessor.Size = new System.Drawing.Size(105, 20);
-            this.cbAntecessor.TabIndex = 4;
-            this.cbAntecessor.Text = "Antecessor";
-            this.cbAntecessor.UseVisualStyleBackColor = true;
-            // 
             // txtResultado
             // 
             this.txtResultado.Location = new System.Drawing.Point(101, 108);
@@ -113,21 +86,65 @@
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
+            // btnTestar
+            // 
+            this.btnTestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTestar.Location = new System.Drawing.Point(225, 103);
+            this.btnTestar.Name = "btnTestar";
+            this.btnTestar.Size = new System.Drawing.Size(113, 29);
+            this.btnTestar.TabIndex = 7;
+            this.btnTestar.Text = "Testar";
+            this.btnTestar.UseVisualStyleBackColor = true;
+            this.btnTestar.Click += new System.EventHandler(this.btnTestar_Click);
+            // 
+            // nupNumero
+            // 
+            this.nupNumero.Location = new System.Drawing.Point(84, 61);
+            this.nupNumero.Name = "nupNumero";
+            this.nupNumero.Size = new System.Drawing.Size(120, 20);
+            this.nupNumero.TabIndex = 8;
+            // 
+            // rdSucessor
+            // 
+            this.rdSucessor.AutoSize = true;
+            this.rdSucessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdSucessor.Location = new System.Drawing.Point(225, 63);
+            this.rdSucessor.Name = "rdSucessor";
+            this.rdSucessor.Size = new System.Drawing.Size(91, 20);
+            this.rdSucessor.TabIndex = 9;
+            this.rdSucessor.TabStop = true;
+            this.rdSucessor.Text = "Sucessor";
+            this.rdSucessor.UseVisualStyleBackColor = true;
+            // 
+            // rdAntecessor
+            // 
+            this.rdAntecessor.AutoSize = true;
+            this.rdAntecessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdAntecessor.Location = new System.Drawing.Point(333, 63);
+            this.rdAntecessor.Name = "rdAntecessor";
+            this.rdAntecessor.Size = new System.Drawing.Size(104, 20);
+            this.rdAntecessor.TabIndex = 10;
+            this.rdAntecessor.TabStop = true;
+            this.rdAntecessor.Text = "Antecessor";
+            this.rdAntecessor.UseVisualStyleBackColor = true;
+            // 
             // Exercício01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(458, 196);
+            this.Controls.Add(this.rdAntecessor);
+            this.Controls.Add(this.rdSucessor);
+            this.Controls.Add(this.nupNumero);
+            this.Controls.Add(this.btnTestar);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtResultado);
-            this.Controls.Add(this.cbAntecessor);
-            this.Controls.Add(this.cbSucessor);
-            this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.lblEnunciado);
             this.Name = "Exercício01";
             this.Text = "Exercício01";
+            ((System.ComponentModel.ISupportInitialize)(this.nupNumero)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,10 +154,11 @@
 
         private System.Windows.Forms.Label lblEnunciado;
         private System.Windows.Forms.Label lblNumero;
-        private System.Windows.Forms.TextBox txtNumero;
-        private System.Windows.Forms.CheckBox cbSucessor;
-        private System.Windows.Forms.CheckBox cbAntecessor;
         private System.Windows.Forms.TextBox txtResultado;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnTestar;
+        private System.Windows.Forms.NumericUpDown nupNumero;
+        private System.Windows.Forms.RadioButton rdSucessor;
+        private System.Windows.Forms.RadioButton rdAntecessor;
     }
 }
