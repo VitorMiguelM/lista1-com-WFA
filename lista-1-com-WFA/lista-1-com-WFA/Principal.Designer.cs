@@ -31,7 +31,7 @@
             this.btnExercicio01 = new System.Windows.Forms.Button();
             this.btnExercicio02 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnExercicio03 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -39,22 +39,24 @@
             // 
             // btnExercicio01
             // 
+            this.btnExercicio01.BackColor = System.Drawing.Color.Orchid;
             this.btnExercicio01.Location = new System.Drawing.Point(12, 15);
             this.btnExercicio01.Name = "btnExercicio01";
             this.btnExercicio01.Size = new System.Drawing.Size(132, 57);
             this.btnExercicio01.TabIndex = 0;
             this.btnExercicio01.Text = "Exercício01";
-            this.btnExercicio01.UseVisualStyleBackColor = true;
+            this.btnExercicio01.UseVisualStyleBackColor = false;
             this.btnExercicio01.Click += new System.EventHandler(this.btnExercicio01_Click);
             // 
             // btnExercicio02
             // 
+            this.btnExercicio02.BackColor = System.Drawing.Color.Orchid;
             this.btnExercicio02.Location = new System.Drawing.Point(150, 15);
             this.btnExercicio02.Name = "btnExercicio02";
             this.btnExercicio02.Size = new System.Drawing.Size(149, 57);
             this.btnExercicio02.TabIndex = 1;
             this.btnExercicio02.Text = "Exercício02";
-            this.btnExercicio02.UseVisualStyleBackColor = true;
+            this.btnExercicio02.UseVisualStyleBackColor = false;
             this.btnExercicio02.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
@@ -66,14 +68,16 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnExercicio03
             // 
-            this.button4.Location = new System.Drawing.Point(12, 78);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(132, 57);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnExercicio03.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercicio03.Location = new System.Drawing.Point(12, 78);
+            this.btnExercicio03.Name = "btnExercicio03";
+            this.btnExercicio03.Size = new System.Drawing.Size(132, 57);
+            this.btnExercicio03.TabIndex = 3;
+            this.btnExercicio03.Text = "Exercício03";
+            this.btnExercicio03.UseVisualStyleBackColor = false;
+            this.btnExercicio03.Click += new System.EventHandler(this.btnExercicio03_Click);
             // 
             // button5
             // 
@@ -110,7 +114,7 @@
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnExercicio03);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnExercicio02);
             this.Controls.Add(this.btnExercicio01);
@@ -125,7 +129,7 @@
         private System.Windows.Forms.Button btnExercicio01;
         private System.Windows.Forms.Button btnExercicio02;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnExercicio03;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
