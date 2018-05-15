@@ -61,12 +61,14 @@
             // 
             // btnExercício04
             // 
+            this.btnExercício04.BackColor = System.Drawing.Color.Orchid;
             this.btnExercício04.Location = new System.Drawing.Point(150, 78);
             this.btnExercício04.Name = "btnExercício04";
             this.btnExercício04.Size = new System.Drawing.Size(149, 57);
             this.btnExercício04.TabIndex = 2;
-            this.btnExercício04.Text = "button3";
-            this.btnExercício04.UseVisualStyleBackColor = true;
+            this.btnExercício04.Text = "Exercício04";
+            this.btnExercício04.UseVisualStyleBackColor = false;
+            this.btnExercício04.Click += new System.EventHandler(this.btnExercício04_Click);
             // 
             // btnExercicio03
             // 
