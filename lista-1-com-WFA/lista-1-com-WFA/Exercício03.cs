@@ -31,6 +31,13 @@ namespace lista_1_com_WFA
             double subtracao = numero01 - numero02;
             double multiplicacao = numero01 * numero02;
             double divisao = numero01 / numero02;
+
+            string resultado = string.Format(@"Soma: {0} 
+subtração: {1}
+Multiplicação: {2}
+Divisão:       {3}", soma, subtracao, multiplicacao, divisao);
+
+            txtResultado.Text = resultado;
         }
 
         
