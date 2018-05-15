@@ -30,7 +30,7 @@
         {
             this.btnExercicio01 = new System.Windows.Forms.Button();
             this.btnExercicio02 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnExercício04 = new System.Windows.Forms.Button();
             this.btnExercicio03 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -59,14 +59,14 @@
             this.btnExercicio02.UseVisualStyleBackColor = false;
             this.btnExercicio02.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnExercício04
             // 
-            this.button3.Location = new System.Drawing.Point(150, 78);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 57);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnExercício04.Location = new System.Drawing.Point(150, 78);
+            this.btnExercício04.Name = "btnExercício04";
+            this.btnExercício04.Size = new System.Drawing.Size(149, 57);
+            this.btnExercício04.TabIndex = 2;
+            this.btnExercício04.Text = "button3";
+            this.btnExercício04.UseVisualStyleBackColor = true;
             // 
             // btnExercicio03
             // 
@@ -115,7 +115,7 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnExercicio03);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnExercício04);
             this.Controls.Add(this.btnExercicio02);
             this.Controls.Add(this.btnExercicio01);
             this.Name = "Principal";
@@ -128,7 +128,7 @@
 
         private System.Windows.Forms.Button btnExercicio01;
         private System.Windows.Forms.Button btnExercicio02;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnExercício04;
         private System.Windows.Forms.Button btnExercicio03;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
