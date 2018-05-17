@@ -220,6 +220,7 @@
             this.btnInformações.TabIndex = 17;
             this.btnInformações.Text = "Informações";
             this.btnInformações.UseVisualStyleBackColor = false;
+            this.btnInformações.Click += new System.EventHandler(this.btnInformações_Click);
             // 
             // txtInformações
             // 
@@ -227,7 +228,7 @@
             this.txtInformações.Margin = new System.Windows.Forms.Padding(4);
             this.txtInformações.Multiline = true;
             this.txtInformações.Name = "txtInformações";
-            this.txtInformações.Size = new System.Drawing.Size(210, 94);
+            this.txtInformações.Size = new System.Drawing.Size(289, 94);
             this.txtInformações.TabIndex = 18;
             // 
             // Exercício08
