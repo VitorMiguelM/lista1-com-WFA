@@ -33,13 +33,14 @@
             this.btnExercício04 = new System.Windows.Forms.Button();
             this.btnExercicio03 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnExercicio06 = new System.Windows.Forms.Button();
             this.btnExercício05 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExercicio01
             // 
             this.btnExercicio01.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercicio01.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExercicio01.Location = new System.Drawing.Point(12, 15);
             this.btnExercicio01.Name = "btnExercicio01";
             this.btnExercicio01.Size = new System.Drawing.Size(132, 57);
@@ -51,6 +52,7 @@
             // btnExercicio02
             // 
             this.btnExercicio02.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercicio02.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExercicio02.Location = new System.Drawing.Point(150, 15);
             this.btnExercicio02.Name = "btnExercicio02";
             this.btnExercicio02.Size = new System.Drawing.Size(149, 57);
@@ -62,6 +64,7 @@
             // btnExercício04
             // 
             this.btnExercício04.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercício04.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExercício04.Location = new System.Drawing.Point(150, 78);
             this.btnExercício04.Name = "btnExercício04";
             this.btnExercício04.Size = new System.Drawing.Size(149, 57);
@@ -73,6 +76,7 @@
             // btnExercicio03
             // 
             this.btnExercicio03.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercicio03.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExercicio03.Location = new System.Drawing.Point(12, 78);
             this.btnExercicio03.Name = "btnExercicio03";
             this.btnExercicio03.Size = new System.Drawing.Size(132, 57);
@@ -90,18 +94,23 @@
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnExercicio06
             // 
-            this.button6.Location = new System.Drawing.Point(150, 141);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(149, 52);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnExercicio06.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercicio06.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExercicio06.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnExercicio06.Location = new System.Drawing.Point(150, 141);
+            this.btnExercicio06.Name = "btnExercicio06";
+            this.btnExercicio06.Size = new System.Drawing.Size(149, 52);
+            this.btnExercicio06.TabIndex = 5;
+            this.btnExercicio06.Text = "Exercício06";
+            this.btnExercicio06.UseVisualStyleBackColor = false;
+            this.btnExercicio06.Click += new System.EventHandler(this.btnExercicio06_Click);
             // 
             // btnExercício05
             // 
             this.btnExercício05.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercício05.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExercício05.Location = new System.Drawing.Point(12, 141);
             this.btnExercício05.Name = "btnExercício05";
             this.btnExercício05.Size = new System.Drawing.Size(132, 52);
@@ -114,9 +123,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkOrchid;
             this.ClientSize = new System.Drawing.Size(311, 468);
             this.Controls.Add(this.btnExercício05);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnExercicio06);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnExercicio03);
             this.Controls.Add(this.btnExercício04);
@@ -135,7 +145,7 @@
         private System.Windows.Forms.Button btnExercício04;
         private System.Windows.Forms.Button btnExercicio03;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnExercicio06;
         private System.Windows.Forms.Button btnExercício05;
     }
 }
