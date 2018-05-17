@@ -16,5 +16,15 @@ namespace lista_1_com_WFA
         {
             InitializeComponent();
         }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Exercício08_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
