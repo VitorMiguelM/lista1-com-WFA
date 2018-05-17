@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Numero02 = new System.Windows.Forms.TextBox();
+            this.txtResultado = new System.Windows.Forms.TextBox();
+            this.txtNumero02 = new System.Windows.Forms.TextBox();
             this.txtNumero01 = new System.Windows.Forms.TextBox();
             this.btnResultado = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -67,20 +67,20 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Número 2";
             // 
-            // textBox1
+            // txtResultado
             // 
-            this.textBox1.Location = new System.Drawing.Point(213, 94);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(119, 56);
-            this.textBox1.TabIndex = 3;
+            this.txtResultado.Location = new System.Drawing.Point(213, 94);
+            this.txtResultado.Multiline = true;
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(119, 56);
+            this.txtResultado.TabIndex = 3;
             // 
-            // Numero02
+            // txtNumero02
             // 
-            this.Numero02.Location = new System.Drawing.Point(323, 55);
-            this.Numero02.Name = "Numero02";
-            this.Numero02.Size = new System.Drawing.Size(100, 20);
-            this.Numero02.TabIndex = 4;
+            this.txtNumero02.Location = new System.Drawing.Point(323, 55);
+            this.txtNumero02.Name = "txtNumero02";
+            this.txtNumero02.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero02.TabIndex = 4;
             // 
             // txtNumero01
             // 
@@ -98,6 +98,7 @@
             this.btnResultado.TabIndex = 6;
             this.btnResultado.Text = "Resultado";
             this.btnResultado.UseVisualStyleBackColor = false;
+            this.btnResultado.Click += new System.EventHandler(this.btnResultado_Click);
             // 
             // Exercício09
             // 
@@ -107,8 +108,8 @@
             this.ClientSize = new System.Drawing.Size(431, 156);
             this.Controls.Add(this.btnResultado);
             this.Controls.Add(this.txtNumero01);
-            this.Controls.Add(this.Numero02);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNumero02);
+            this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -124,8 +125,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox Numero02;
+        private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.TextBox txtNumero02;
         private System.Windows.Forms.TextBox txtNumero01;
         private System.Windows.Forms.Button btnResultado;
     }

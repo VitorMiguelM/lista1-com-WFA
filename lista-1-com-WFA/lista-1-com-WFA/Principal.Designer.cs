@@ -36,6 +36,7 @@
             this.btnExercicio06 = new System.Windows.Forms.Button();
             this.btnExercício05 = new System.Windows.Forms.Button();
             this.btnExercicio08 = new System.Windows.Forms.Button();
+            this.btnExercicio09 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExercicio01
@@ -135,12 +136,25 @@
             this.btnExercicio08.UseVisualStyleBackColor = false;
             this.btnExercicio08.Click += new System.EventHandler(this.btnExercicio08_Click);
             // 
+            // btnExercicio09
+            // 
+            this.btnExercicio09.BackColor = System.Drawing.Color.Orchid;
+            this.btnExercicio09.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExercicio09.Location = new System.Drawing.Point(12, 258);
+            this.btnExercicio09.Name = "btnExercicio09";
+            this.btnExercicio09.Size = new System.Drawing.Size(132, 53);
+            this.btnExercicio09.TabIndex = 8;
+            this.btnExercicio09.Text = "Exercício09";
+            this.btnExercicio09.UseVisualStyleBackColor = false;
+            this.btnExercicio09.Click += new System.EventHandler(this.btnExercicio09_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrchid;
             this.ClientSize = new System.Drawing.Size(311, 468);
+            this.Controls.Add(this.btnExercicio09);
             this.Controls.Add(this.btnExercicio08);
             this.Controls.Add(this.btnExercício05);
             this.Controls.Add(this.btnExercicio06);
@@ -165,5 +179,6 @@
         private System.Windows.Forms.Button btnExercicio06;
         private System.Windows.Forms.Button btnExercício05;
         private System.Windows.Forms.Button btnExercicio08;
+        private System.Windows.Forms.Button btnExercicio09;
     }
 }
