@@ -142,6 +142,7 @@
             this.btnMedia.TabIndex = 10;
             this.btnMedia.Text = "Media";
             this.btnMedia.UseVisualStyleBackColor = false;
+            this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // Exercício06
             // 
