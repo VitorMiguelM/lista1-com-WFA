@@ -99,9 +99,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(180, 123);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 15);
+            this.label5.Size = new System.Drawing.Size(43, 15);
             this.label5.TabIndex = 5;
-            this.label5.Text = "label5";
+            this.label5.Text = "Nota 4";
             // 
             // txtNota3
             // 
