@@ -58,5 +58,11 @@ namespace lista_1_com_WFA
             Exercício07 exercicio07 = new Exercício07();
             exercicio07.Show();
         }
+
+        private void btnExercicio08_Click(object sender, EventArgs e)
+        {
+            Exercício08 exercicio08 = new Exercício08();
+            exercicio08.Show();
+        }
     }
 }

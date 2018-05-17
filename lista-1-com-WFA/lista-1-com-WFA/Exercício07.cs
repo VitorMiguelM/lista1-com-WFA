@@ -19,7 +19,7 @@ namespace lista_1_com_WFA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string magica = String.Format(@" *
+            string magica = String.Format(@"*
 ***
 *****
 *******
