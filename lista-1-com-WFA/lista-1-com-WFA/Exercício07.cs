@@ -16,5 +16,22 @@ namespace lista_1_com_WFA
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string magica = String.Format(@" *
+***
+*****
+*******
+*********
+***********");
+
+            txtMagica.Text = magica;
+        }
+
+        private void txtMagica_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
