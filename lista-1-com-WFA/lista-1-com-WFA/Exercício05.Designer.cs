@@ -91,7 +91,7 @@
             // mtbValorDoCarro
             // 
             this.mtbValorDoCarro.Location = new System.Drawing.Point(133, 64);
-            this.mtbValorDoCarro.Mask = "000.000.00";
+            this.mtbValorDoCarro.Mask = "000000,00";
             this.mtbValorDoCarro.Name = "mtbValorDoCarro";
             this.mtbValorDoCarro.Size = new System.Drawing.Size(58, 20);
             this.mtbValorDoCarro.TabIndex = 5;
